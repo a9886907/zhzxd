@@ -27,9 +27,9 @@
 ### 二. 青龙面板
 - 拉取仓库
   ```
-  ql repo https://github.com/a9886907/zhzxd.git "" "backUp|tools|JS|logs|login"  "tools|JS|logs|login"
+  ql repo https://github.com/a9886907/zhzxd.git "" "backUp|tools|JS|logs|login"  "tools|JS|logs|login|sendNotify"
   国内服务器太卡的话用下面这个
-  ql repo https://github.ruirui.fun/https://github.com/a9886907/zhzxd.git "" "backUp|tools|JS|logs|login"  "tools|JS|logs|login"
+  ql repo https://github.ruirui.fun/https://github.com/a9886907/zhzxd.git "" "backUp|tools|JS|logs|login"  "tools|JS|logs|login|sendNotify"
 - 安装依赖
   ```
   安装依赖时失败时 如果日志内有提示 gcc not found 的关键字 则进入docker容器中 依次执行
