@@ -22,7 +22,7 @@ from datetime import datetime, timedelta
 from base64 import b64encode
 from os import environ
 from tools.tool import timestamp, get_environ
-from app_telecom_task import ChinaTelecom
+from china_telecom import ChinaTelecom
 from sendNotify import send
 from asyncio import get_event_loop, wait, sleep, run
 requests.packages.urllib3.util.ssl_.DEFAULT_CIPHERS += ':HIGH:!DH:!aNULL'
